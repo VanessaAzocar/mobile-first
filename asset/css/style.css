@@ -1,6 +1,14 @@
+
+/*.carouselExampleIndicators{
+  list-style: circle;
+}*/
+
 .testimony{
   text-align: center;
+  margin-top: 6em;
+  margin-bottom: 2em;
 }
+
 .imgTurist{
   text-align: center;
 }
