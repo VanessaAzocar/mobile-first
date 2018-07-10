@@ -1,9 +1,25 @@
-
-.carouselExampleIndicators{
-  list-style: circle;
+/*para que carusel quede redondo*/
+.carousel-indicators li {
+  text-indent: 0;
+  margin: 0 2px;
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 100%;
+  line-height: 30px;
+  color: #fff;
+  background-color: #333333;
+  transition: all 0.25s ease;
+  
+}
+.carousel-indicators li.active, .carousel-indicators li:hover {
+  margin: 0 2px;
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
 }
 
-
+/*nueva seccion*/
 .testimony{
   text-align: center;
   margin-top: 6em;
@@ -16,9 +32,6 @@
 
 /*Login*/
 
-.centerLogin{
-
-}
 .login{
   background-color: rgb(230, 160, 120);
   margin-top: 7em;
@@ -27,10 +40,11 @@
 .titleContact{
   text-align: center;
   color: white;
+  margin-top: 2em;
 }
 .sectionLogin{
   color: white;
-  margin-top: 5em;
+  padding: 8em;
 
 }
 
@@ -40,3 +54,13 @@
   border:none;
 }
 
+.icons{
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 25px;
+}
+.fa-facebook-f{
+  margin-left: 1em;
+  margin-right: 1em;
+}
