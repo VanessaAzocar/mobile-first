@@ -1,7 +1,7 @@
 
-/*.carouselExampleIndicators{
+.carouselExampleIndicators{
   list-style: circle;
-}*/
+}
 
 
 .testimony{
@@ -10,11 +10,14 @@
  }
 
 .imgTurist{
-  text-align: center;
+  
   margin-top: 2em;
 }
-.img-turist1{
-   width: 580px;
+
+/*Login*/
+
+.centerLogin{
+
 }
 .login{
   background-color: rgb(230, 160, 120);
@@ -36,3 +39,4 @@
   color: black;
   border:none;
 }
+
